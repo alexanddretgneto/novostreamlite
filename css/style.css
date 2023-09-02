@@ -5,7 +5,6 @@ html, body {
   canvas {
     display: block;
   }
-
   body {
     display: flex;
     align-items: center;
@@ -18,9 +17,13 @@ html, body {
     text-align: center;
   }
   
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
   h1 {
     text-align: left;
     margin-right: 20px; /* Espaço à direita do título */
   }
-  
   
