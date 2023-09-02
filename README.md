@@ -1,4 +1,0 @@
-# novostreamlite
-
-
-sério
