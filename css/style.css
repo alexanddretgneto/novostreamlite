@@ -18,7 +18,7 @@ body {
 
 .banner {
   background-color: #007bff; /* Cor de fundo do banner */
-  text-align: center;
+  text-align:end;
   padding: 10px; /* Espaçamento interno do banner */
 }
 
