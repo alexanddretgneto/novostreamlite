@@ -1,29 +1,42 @@
 html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  main {
-    text-align: center;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center;
-  }
-  
-  h1 {
-    text-align: left;
-    margin-right: 20px; /* Espaço à direita do título */
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Certifica-se de que os elementos se empilharão verticalmente */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.banner {
+  background-color: #007bff; /* Cor de fundo do banner */
+  text-align: center;
+  padding: 10px; /* Espaçamento interno do banner */
+}
+
+.banner img {
+  max-width: 100%; /* Para garantir que a imagem do banner se ajuste ao contêiner */
+  height: auto;
+}
+
+main {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: left;
+  margin-right: 20px; /* Espaço à direita do título */
+}
